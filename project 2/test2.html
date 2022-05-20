@@ -1,0 +1,298 @@
+html,
+body {
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+.menubar {
+  position: absolute;
+  z-index: 150;
+}
+
+#logo {
+  width: 550px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  top: 40%;
+}
+.menubar ul,
+li,
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  z-index: 1000;
+}
+
+.menubar a:hover {
+  text-decoration: underline;
+}
+
+.menubar.two a {
+  color: black;
+  }
+
+.slider-contain {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.a-slide {
+  background-size: cover !important;
+}
+
+.slick-slider {
+  height: 100%;
+  width: 100%;
+    z-index: -1;
+}
+
+.slick-list,
+.slick-track {
+  height: 100%;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 101;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.overlay p {
+  color: white;
+  position: absolute;
+  font-size: 30px;
+  width: auto;
+  top: 85%;
+  font-family: 'Caveat', cursive;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%)
+}
+
+.overlay h2 {
+  font-size: 30px;
+  color: white;
+  width: auto;
+  top: 90%;
+  position: absolute;
+  font-family: 'Caveat', cursive;
+  left: 50%;
+   -webkit-transform: translateX(-50%);
+  transform: translateX(-50%)
+}
+
+.brand-wrap {
+  border-bottom: 1px black solid;
+}
+
+.item {
+  width: 500px;
+  margin: 30px;
+  display: inline-block;
+}
+
+.slick-slidertwo {
+  height: 100%;
+  width: 100%;
+}
+
+.overlay-about {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 101;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+
+.wrap-about {
+  width: 50%;
+  padding-top: 175px;
+  padding-left: 65px;
+}
+.overlay-about p {
+  line-height: 27px;
+  width: 700px;
+}
+
+.overlay-about h1 {
+  color: goldenrod;
+}
+
+#about {
+  text-decoration: none;
+  line-height: 0;
+  font-size: 0;
+}
+
+.wrap-service {
+  padding-top: 95px;
+  padding-left: 100px;
+}
+.services h1 {
+  color: goldenrod;
+  margin-left: -20px;
+}
+
+.services p {
+  line-height: 30px;
+  margin-left: -20px;
+  width: 52%
+}
+
+#s1 {
+  width: 600px;
+  height: 600px;
+  margin-right: 60px;
+  display: block;
+  -webkit-box-shadow: 5px 10px 16px 1px rgba(0, 0, 0, 0.41);
+  -moz-box-shadow: 5px 10px 16px 1px rgba(0, 0, 0, 0.41);
+  box-shadow: 5px 10px 16px 1px rgba(0, 0, 0, 0.41);
+  }
+
+#underline {
+  width: 50%;
+  float: left;
+  margin-top: -20px;
+  margin-left: -20px;
+}
+
+.service-images {
+  float: right;
+  margin-top: 50px;
+}
+
+.service-items {
+  width: 63%;
+  display: inline-block;
+  margin-left: -43px;
+  }
+
+.wrap-service h1 {
+  font-size: 55px;
+  color: goldenrod;
+}
+
+.empty {
+  height: 100px;
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+  border-top: lightgrey 1px solid;
+  text-align: center;
+}
+
+#googleMap {
+ width: 80%;
+  height: 100vh;
+  float: left;
+}
+
+.contact-wrap {
+  width: 100%;
+  display: table;
+}
+
+.contact {
+  height: 100vh;
+  width: 19.8%;
+  float: right;
+  border-left: 2px solid black;
+}
+
+.menubar.two {}
+.contact p {
+  line-height: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+}
+/* Smartphones (landscape) ----------- */
+
+@media only screen and (min-width: 321px) {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+}
+
+
+/* Smartphones (portrait) ----------- */
+
+@media only screen and (max-width: 320px) {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    top: 50%;
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+}
+
+
+/* iPads (landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  position: absolute;
+   left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+}
+
+
+/* iPads (portrait) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+}/* Desktops and laptops ----------- */
+
+@media only screen and (min-width: 1224px) {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+}
+
+
+/* Large screens ----------- */
+
+@media only screen and (min-width: 1824px) {
+  /* Styles */
+}
+/* iPhone 4 ----------- */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+}

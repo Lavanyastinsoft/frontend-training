@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> WEBSITE CREATION</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width= device-width">
+<style>
+*{
+box-sizing: border-box;
+border:2px solid black;
+}
+body{
+font-family:arial,verdana;
+margin:2;
+}
+.header
+{
+padding:50px;
+color: black;
+background:powderblue;
+text-align: center;
+}
+.header h1{
+font-size:30px;
+color:blue;
+}
+.navbar {
+overflow:hidden;
+background-color: grey;
+}
+.navbar a{
+float:left;
+display: inline;
+color:white;
+text-align: center;
+padding:60px;
+}
+.navbar a.right{
+float:right}
+.navbar a:hover{
+background-color:black;
+}
+.test{
+<!-- display:flex; -->
+<!-- flex:wrap; -->
+}
+.side{
+width:60%;
+background:lavender;
+padding:40px;
+float:left;
+}
+.main
+{
+width:40%;
+background:pink;
+padding:40px
+}
+.image{
+background:grey;
+width:100%;
+padding:20px;
+}
+.footer
+{
+  padding: 20px;
+  text-align: center;
+  background: honeydew;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+   
+  .header{background-color:pink;}
+  .footer{background-color:yellow;}
+  <!-- .side{ -->
+<!-- flex:100% !important; -->
+
+<!-- } -->
+<!-- .main -->
+<!-- { -->
+<!-- flex:100%  !important; -->
+
+<!-- } -->
+  <!-- } -->
+  }
+</style>
+</head>
+<body>
+<div class="header">
+<h1> This is a html website</h1>
+<h3> Here we going to implement HTML and CSS</h3>
+</div>
+<div class="navbar" >
+<a href="https://www.w3schools.com/default.asp"> W3 school</a>
+<a href="https://www.tutorialspoint.com/index.htm"> Tutorils point</a>
+<a href="https://www.codeyoung.com/"> Code young</a>
+<a href="https://www.codingninjas.com/"class="right"> Codingninjas </a>
+</div>
+<div class="test">
+<div class="side">
+<h2> HTML</h2>
+<h5>It is an hyper text markup language<h5>
+<div class="image" style= height=200 px;>HTML</div>
+</div>
+<div class="main">
+<h2> CSS</h2>
+<h5> It is an cascading style sheet</h5>
+<div class="image" ;style=height=200px; >CSS</div>
+</div>
+</div>
+<div class="footer">
+<h3> THANK YOU !</h3>
+</div>
+</body>
+</html>

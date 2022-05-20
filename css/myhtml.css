@@ -1,0 +1,37 @@
+
+.name{
+background-color:grey;
+width:100px;
+border:10px solid green;
+height:30px;
+padding:50px;
+margin:20px;
+}
+body{
+background-color:powderblue;
+/*background-image:url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v546batch3-mynt-31-badgewatercolor_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=e1ee6e84fa2c584170bab2733ea5a1b0');*/
+/*background-repeat:repeat x; repeat */
+background-position:top right;
+background-attachment:fixed;
+}
+#example{
+color:black;
+text-align:center;
+background-color:tomato;
+border-style: double dashed ;
+border-color:white;
+border-width:3px;
+border-side
+margin-bottom:100px;
+margin-left:100px;
+margin-right:100px;
+margin-top:100px;
+}
+.class{
+background-color:yellow;
+color:blue;
+text-align:left;
+font-size:30px;
+border-style:dotted dashed solid;
+border-radius:35px;
+}

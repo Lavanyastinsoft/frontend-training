@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+<style>
+input[type=text]{
+width=4px;
+height:5px;
+padding:20px 20px;
+border:1px solid grey;
+margin:4px;
+}
+select{
+width:300px;
+height:40px;
+margin:8px;
+}
+textarea:focus{
+background-color:pink;
+width:505px;
+height:60px;
+padding:20px;
+}
+div{
+padding:4px;
+background-color:powderblue;
+}
+input[type=submit]:focus{
+width:50px;
+height:30px;
+background-color:black;
+color:white;
+padding:3px;
+}
+</style>
+</head>
+<body>
+<div>
+<form>
+<label for ="fname">Firstname</label>
+<input type="text" id="fname" name="First name" ><br>
+<label for ="fname">Lastname</label>
+<input type="text" id="fname" name="Last name" ><br>
+<label for ="fname"> course</label>
+<select id="course">
+<option>CSE</option>
+<option>EEE</option>
+<option>ECE</option>
+<option>MECH</option>
+<option>CIVIL</option>
+</select><br><br>
+<label for="subject">Subject</label><br>
+<textarea> Enter your text here</textarea><br><br>
+<input type="submit"  value="submit">
+</form>
+</div>
+</body>
+</html>

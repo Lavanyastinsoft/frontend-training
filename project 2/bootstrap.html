@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<div class="jumbotron ">
+<h3>Bootstrap Introduction</h3>
+<p> Resize the page as per the device width</p>
+</div>
+<div class="container pt-1 ">
+<div class="row">
+
+<div class="col-sm-3 bg-success border ">
+<h3>Column 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+</div>
+<div class="col-sm-3 bg-warning border">
+<h3>Column 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+</div>
+<div class="col-sm-3 bg-info border">
+<h3>Column 3</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+</div>
+<div class="col-sm-3 bg-danger border">
+<h3>Column 4</h3>
+      <p>Lorem ipsum <mark>dolor sit amet,</mark> consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+</div>
+</div>
+</div><br><hr>
+<div class="container">
+
+<span class="display-1">Display1</span><br>
+<span class="display-2">Display2</span><br>
+<span class="display-3">Display3</span><br>
+<span class="display-4">Display4</span><br>
+</div><br><hr>
+<div class="container">
+<h3>DL TAG</h3>
+<p> the dl<kbd> element</kbd> indicates discription list</p>
+<dl>
+<dt>drink</dt>
+<dd>coffee</dd>
+<dt>tea</dt>
+<dd>juice</dd>
+</dl>
+</div><hr>
+<div class="container">
+<p class="alert alert-success"><strong>success!</strong>this is a msg <a href="#" class="alert-link">read</a></p>
+<p class="text-light bg-success">info</p>
+
+<a href="#" class="text-light bg-dark">danger</a>
+<br><br>
+<p class="text-dark bg-danger">warning</p>
+<p class="text-dark bg-warning">primary</p>
+<p class="text-dark bg-primary">secondary</p>
+<p class="alert alert-danger alert-dismissible fade show">
+<button type="button" class="close" date-dismiss="alert">&times;
+</button><strong>close this tab</strong></p>
+</div>
+<br>
+<div class="container">
+<h4>TABLE CREATION</h4>
+<table class="table table-dark table-striped">
+
+<tr>
+<th>fname</th>
+<th>lname</th>
+<th>mail</th>
+</tr>
+
+<tr>
+<td> lavanya</td>
+<td>BG</td>
+<td>lavanya@stinsoft.com</td>
+</tr>
+<tr>
+<td>Mary</td>
+<td>Moe</td>
+<td>mary@example.com</td>
+</tr>
+<tr>
+<td>July</td>
+<td>Dooley</td>
+<td>july@example.com</td>
+</tr>
+
+</table>
+<br>
+<h4> IMAGES</h4>
+<img src="photo.JFIF" class="rounded rounded-circle float-right"></img><br>
+<br><hr>
+
+
+<h4> BUTTON</h4>
+<a href="#" class="btn btn-info" role="button">Link Button</a>
+<button type="button" class="btn btn-outline-success">success</button>
+<button type="button" class="btn btn-info btn-ouline btn-lg btn-block">success</button>
+<button type="button" class="btn btn-primary">success</button>
+<button type="button" class="btn btn-secondary">success</button>
+<button type="button" class="btn btn-danger "disabled>success</button>
+<button type="button" class="btn btn-warning">success</button>
+</div>
+<div class="container">
+<h3> SPINNERS</h3>
+<div class="  btn-group-vertical border">
+<button class="btn btn-success">
+<span class="spinner-border ">hello</span></button>
+<button class="btn btn-primary">
+<span class="spnner spinner-border"></span>Loading</button>
+<button class="btn btn-primary"disabled>
+<span class="spnner spinner-border"></span>Loading</button>
+<button class="btn btn-primary">
+<span class="spinner-grow "></span>Loading</button>
+<br>
+<button type="button" class="btn btn-success">
+message-box <span class="badge  badge-pill badge-success ">new</span></button><br>
+<span class="badge badge-info">Hello all</span>
+</div>
+<h3> PROGRESS BAR</h3>
+<div class="progress">
+<div class="progress-bar progress-bar-striped bg-warning progress-bar-animated text-dark" style="width:80%;height:90%">70%</div>
+</div>
+<br><hr>
+<div class="container">
+<div class="spinner-grow text-success"></div>
+<div class="spinner-border text-info"></div>
+<div class="spinner-grow text-warning"></div>
+<div class="spinner-border text-border-secondary"></div>
+</div><br><hr>
+<h3> PAGINATION</h3>
+<div class="container">
+<ul class="pagination justify-content-center">
+<li class="page-item"> <a class="page-link" href="#"> previous</a></li>
+<li class="page-item"> <a class="page-link" href="#"> 1</a></li>
+<li class="page-item"> <a class="page-link" href="#"> 2</a></li>
+<li class="page-item"> <a class="page-link" href="#"> 3</a></li>
+<li class="page-item"> <a class="page-link" href="#"> next</a></li><br>
+</ul>
+<ul class="pagination justify-content-end" style="margin:80px">
+<li class="page-item"> <a class="page-link" href="#"> previous</a></li>
+<li class="page-item"> <a class="page-link" href="#"> 1</a></li>
+<li class="page-item active"> <a class="page-link" href="#"> 2</a></li>
+<li class="page-item active"> <a class="page-link" href="#"> 3</a></li>
+<li class="page-item"> <a class="page-link" href="#"> next</a></li><br><hr>
+</ul>
+<ul class="pagination">
+<li class="page-item disabled"> <a class="page-link" href="#"> previous</a></li>
+<li class="page-item disabled"> <a class="page-link" href="#"> 1</a></li>
+<li class="page-item"> <a class="page-link" href="#"> 2</a></li>
+<li class="page-item"> <a class="page-link" href="#"> 3</a></li>
+<li class="page-item"> <a class="page-link" href="#"> next</a></li><br><hr>
+</ul>
+<ul class="breadcrumb">
+<li class="breadcrumb-item"> <a  href="#"> previous</a></li>
+<li class="breadcrumb-item"> <a  href="#"> 1</a></li>
+<li class="breadcrumb-item"> <a href="#"> 2</a></li>
+<li class="breadcrumb-item"> <a href="#"> 3</a></li>
+<li class="breadcrumb-item active"> <a  href="#"> next</a></li><br><hr>
+</ul>
+</div><br><hr>
+<div class="container">
+<h3> LIST GROUP</h3>
+<ul class="list-group">
+<li class="list-group-item active">First item</li>
+<li class="list-group-item">Second item</li>
+<li class="list-group-item">Third item</li>
+<li class="list-group-item">fourth item</li>
+<li class="list-group-item disabled">fivth item</li>
+</ul><br><hr>
+<ul class="container">
+<ul class="list-group list-group-flush">
+<li class="list-group-item "><a class="list-group-item list-group-item-active">First item</a></li>
+<li class="list-group-item"><a class="list-group-item list-group-item-active">Second item</a></li>
+<li class="list-group-item"><a class="list-group-item list-group-item-active">Third item</a></li>
+<li class="list-group-item"><a class="list-group-item list-group-item-active">fourth item</a></li>
+<li class="list-group-item"><a class="list-group-item list-group-item-active">fivth item</a></li>
+</ul><br>
+<ul class="container">
+<ul class="list-group ">
+<li class="list-group-item list-group-item-info">First item</li>
+<li class="list-group-item list-group-item-success">Second item</li>
+<li class="list-group-item list-group-item-primary">Third item</li>
+<li class="list-group-item list-group-item-danger">fourth item</li>
+<li class="list-group-item list-group-item-warning">fivth item</li>
+</ul>
+</div>
+<div class="card">
+<h3> BASIC CARDS</h3>
+<div class="card-title">Cards</div>
+<div class="card-header bg-danger">Header</div>
+<div class="card-body bg-info">Body</div>
+<div class="card-footer bg-success"> footer</div>
+<a class="card-link" href="#">link1</a>
+<a class="card-link" href="#">link2</a>
+</div><br><hr>
+<div class="card">
+<h3> BASIC CARDS</h3>
+<div class="card-title">Cards</div>
+<img class="card-img-top" src="photo22.JPG" style="width:250px">
+<div class="card-body">
+<h4 class="card-title">John</h4>
+<p class="card-text">This is a profile picture of john</p>
+<a href="#" class="btn btn-success">see profile</a>
+</div>
+</div>
+<div class="card-columns">
+<div class="card bg-primary">
+<p class="card-body text-center"> hello all </p>
+</div>
+</div>
+<div class="card-deck">
+<div class="card bg-primary">
+<p class="card-body text-center"> hello all </p>
+</div>
+<div class="card bg-secondary">
+<p class="card-body text-center"> hello all </p>
+</div>
+<div class="card bg-success">
+<p class="card-body text-center"> hello all </p>
+</div>
+<div class="card bg-info">
+<p class="card-body text-center"> hello all </p>
+</div>
+<div class="card bg-dark">
+<p class="card-body text-center"> hello all </p>
+</div>
+</div><br>
+<div class="card-group">
+<div class="card bg-primary">
+<p class="card-body text-center"> hello all </p>
+</div>
+<div class="card bg-warning">
+<p class="card-body text-center"> hello all </p>
+</div>
+<div class="card bg-danger">
+<p class="card-body text-center"> hello all </p>
+</div>
+<div class="card bg-info">
+<p class="card-body text-center"> hello all </p>
+</div>
+<div class="card bg-success">
+<p class="card-body text-center"> hello all </p>
+</div>
+</div><br>
+<h3> Dropdown link</h3>
+<div class="dropdown">
+<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+dropdown
+</button>
+ <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Link 1</a>
+    <a class="dropdown-item" href="#">Link 2</a>
+    <a class="dropdown-item" href="#">Link 3</a>
+  </div>
+</div><br>
+<div class="btn-group">
+<button type="button" class="btn btn-success">primary</button><br>
+<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">sony</button>
+<div class="dropdown-menu">
+<a class="dropdown-item" href="#"> tv</a>
+<a class="dropdown-item" href="#">AC</a>
+</div>
+</div>
+
+</body>
+</html>	  
+	  
